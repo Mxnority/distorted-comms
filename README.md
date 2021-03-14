@@ -6,22 +6,6 @@ A simple-to-use mod for Among Us that makes Comms Sabotage more powerful!
 ## How it works
 In game, when an impostor calls the Comms Sabotage, all players's unique distinctive features are removed and instead they all become similar to each other! This makes this (usually useless) sabotage much more powerful!
 
-## Installation
-This is a client-side mod, which means *all* players should have this mod installed for the best experience. As such, you can play on official servers, although I recommend to use your own server using **[Imposter](https://github.com/Impostor/Impostor)**.
-
-Currently, I'm only offerring the `dll` file for a manual installation, I might create a all-in-one package for this later.
-
-**NOTE: this mod only supports Among Us v2021.3.5s on steam!**
-
-### Custom Installation
-1. Install Reactor BepInEx by following **[these instructions](https://docs.reactor.gg/docs/basic/install_bepinex/)**.
-2. Install Reactor by following **[these instructions](https://docs.reactor.gg/docs/basic/install_reactor)**.
-3. Download the **dll file** for your game version in the **Releases**.
-4. Copy the dll file into **`Among Us/BepInEx/plugins`**.
-5. (Optional) If you want to play on official servers, you must do the following :
-    - Open **`Among Us/BepInEx/config/gg.reactor.api.cfg`** with a text editor.
-    - Find the line `Modded handshake = true` and change it to `Modded handshake = false`.
-    - Save and close your editor.
 
 ## Configuration
 After running the game with mod installed at least once, a configuration file should be present at `\BepInEx\config\mod.dardy.distortedcomms.cfg`. This allows changing the following settings under header `[Distortion]`:
